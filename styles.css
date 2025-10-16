@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 img{
-	widht="500px";
-	height="173px";
-	object-fit="cover"
+	widht:"500px";
+	height:"173px";
+	object-fit:"cover"
 }
