@@ -1,6 +1,52 @@
 /*  your css code here. If applicable */
-img{
-	widht:"500px";
-	height:"173px";
-	object-fit:"cover"
+/* Hero Container */
+.hero {
+  display: flex;                /* Flexbox layout */
+  justify-content: center;      /* Center horizontally */
+  align-items: center;          /* Center vertically */
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+/* Hero Image */
+.hero img {
+  width: 50%;                   /* Half width */
+  height: 400px;                /* Fixed height */
+  object-fit: cover;            /* Crop image to fit */
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* Hero Content */
+.hero-content {
+  max-width: 400px;
+}
+
+/* Heading */
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+.hero-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Explore Button */
+.explore-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e60023;    /* Pinterest red */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #c2001a;    /* Darker red on hover */
 }
