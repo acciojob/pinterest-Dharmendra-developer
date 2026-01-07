@@ -44,7 +44,7 @@
   background-color: #e60023; /* Pinterest red */
   color: #fff;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 5px;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
