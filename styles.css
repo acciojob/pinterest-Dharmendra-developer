@@ -1,15 +1,21 @@
 /*  your css code here. If applicable */
-
-.hero img{
-	width:400px;
-	height:300px;
-	object-fit:cover;	
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+/* THIS PART IS REQUIRED FOR YOUR TEST */
+.hero img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
 }
 
-button{
-	padding:12px 20px;
-	background-color:red;
-	color:white;
-	border-radius:8px;
-	border:none;
+button {
+  padding: 12px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  border: none;
 }
