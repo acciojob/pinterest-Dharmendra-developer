@@ -1,47 +1,15 @@
 /*  your css code here. If applicable */
-/* Hero container */
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  padding: 20px;
-  box-sizing: border-box;
-  gap: 30px;
-  background-color: #f5f5f5;
+
+.hero img{
+	width:400px;
+	height:300px;
+	object-fit:cover;	
 }
 
-/* Image styling */
-.hero img {
-  width: 350px;
-  height: 450px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-/* Content section */
-.hero-content {
-  max-width: 400px;
-}
-
-.hero-content h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.hero-content p {
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: #555;
-}
-
-/* Explore Now button */
-.explore-btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #e60023; /* Pinterest red */
-  color: white;
-  text-decoration: none;
-  border-radius: 25px;
-  font-weight: bold;
+button{
+	padding:12px 20px;
+	background-color:red;
+	color:white;
+	border-radius:8px;
+	border:none;
 }
